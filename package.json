@@ -1,8 +1,8 @@
 {
   "name": "back",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "MBUDO Kashira - Strapi CMS Backend",
   "scripts": {
     "build": "strapi build",
     "console": "strapi console",
