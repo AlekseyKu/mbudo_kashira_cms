@@ -2,7 +2,16 @@ export default [
   'strapi::logger',
   'strapi::errors',
   'strapi::security',
-  'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: [
+        'https://mbudo-kashira.ru',
+        'https://www.mbudo-kashira.ru',
+        'https://cms.mbudo-kashira.ru',
+      ],
+    },
+  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
